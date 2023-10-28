@@ -8,7 +8,7 @@ public class homework7 {
         printSquare(5);
         printDiagonal(new int[3][3]);
         findMax(new int[][]{{1, 2, 3, 4}, {5, 6, 7, 8}});
-        sumTwoString(new int[][]{{1,2,3,4},{5,6,7,8}});
+        sumTwoString(new int[][]{{1, 2, 3, 4}, {5, 6, 7, 8}});
     }
 
     public static void sumOfPositiveElements(int[][] array) {
