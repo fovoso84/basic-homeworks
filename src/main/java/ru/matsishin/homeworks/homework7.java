@@ -8,13 +8,13 @@ public class homework7 {
         printSquare(5);
         printDiagonal(new int[3][3]);
         findMax(new int[][]{{1, 2, 3, 4}, {5, 6, 7, 8}});
-        sumTwoString(new int[][]{{1, 2, 3, 4}, {5, 6, 7, 8}});
+        sumSecondString(new int[][]{{1, 2, 3, 4}, {5, 6, 7, 8}});
     }
 
     public static void sumOfPositiveElements(int[][] array) {
         int sum = 0;
         for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array.length; j++) {
+            for (int j = 0; j < array[i].length; j++) {
                 if (array[i][j] > 0) {
                     sum += array[i][j];
 
@@ -25,7 +25,7 @@ public class homework7 {
 
 
         }
-        System.out.println(sum);
+        return;
     }
 
     public static void printSquare(int size) {
@@ -68,21 +68,21 @@ public class homework7 {
                 }
             }
         }
-        System.out.println(maxValue);
+        return;
 
     }
 
-    public static void sumTwoString(int[][] array) {
+    public static int sumSecondString(int[][] array) {
         if (array.length >= 2) {
             int str2 = 0;
             for (int i = 0; i < array[1].length; i++) {
                 str2 += array[1][i];
             }
-            System.out.println(str2);
+            return str2;
 
 
         } else {
-            System.out.println(-1);
+            return -1;
         }
 
 
