@@ -63,6 +63,7 @@ public class Box {
 
     }
 
+
     public void Info() {
 
         System.out.println("Коробка:");

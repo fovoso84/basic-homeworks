@@ -20,6 +20,7 @@ public class Main {
                 System.out.println();
             }
         }
+
         Box box = new Box(10, 10, 10, "black", true, "ball");
         box.Info();
         box.open();
